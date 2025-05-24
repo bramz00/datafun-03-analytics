@@ -27,7 +27,7 @@ from utils_logger import logger
 # Declare Global Variables
 #####################################
 
-FETCHED_DATA_DIR = "C:\Repos\datafun-03-analytics\data"
+FETCHED_DATA_DIR = "C:\\Repos\\datafun-03-analytics\\data"
 
 #####################################
 # Define Functions
