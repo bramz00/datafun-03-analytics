@@ -1,6 +1,6 @@
 """
 This example file fetches a text file of Romeo and Juliet from the web 
-and saves it to a local file named romeo.txt in a folder named example_data.
+and saves it to a local file named romeo.txt in a folder named fetched_data.
 
 Please save a copy of the provided utils_logger.py file 
 in the same folder as this file.
@@ -27,7 +27,7 @@ from utils_logger import logger
 # Declare Global Variables
 #####################################
 
-FETCHED_DATA_DIR = "example_data"
+FETCHED_DATA_DIR = "fetched_data"
 
 #####################################
 # Define Functions

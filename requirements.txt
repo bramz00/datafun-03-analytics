@@ -142,7 +142,7 @@
 # wheel
 
 # # Easy logging for monitoring code execution
-# loguru
+loguru
 
 # # HTTP requests made simple
 requests

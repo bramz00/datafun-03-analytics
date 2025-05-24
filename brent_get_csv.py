@@ -27,7 +27,7 @@ from utils_logger import logger
 # Declare Global Variables
 #####################################
 
-FETCHED_DATA_DIR = "example_data"
+FETCHED_DATA_DIR = "C:\Repos\datafun-03-analytics\data"
 
 #####################################
 # Define Functions
@@ -93,9 +93,9 @@ def main():
     """
     Main function to demonstrate fetching CSV data.
     """
-    csv_url = 'https://raw.githubusercontent.com/MainakRepositor/Datasets/master/World%20Happiness%20Data/2020.csv'
-    logger.info("Starting CSV fetch demonstration...")
-    fetch_csv_file(FETCHED_DATA_DIR, "2020_happiness.csv", csv_url)
+    csv_url = 'https://cdn.wsform.com/wp-content/uploads/2020/06/industry.csv'
+    logger.info("Starting CSV fetch...")
+    fetch_csv_file(FETCHED_DATA_DIR, "industry_names.csv", csv_url)
 
 #####################################
 # Conditional Execution
