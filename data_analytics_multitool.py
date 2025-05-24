@@ -12,10 +12,31 @@ json_url = 'https://www.filesampleshub.com/download/code/json/sample2.json'
 txt_url = 'https://sample-files.com/downloads/documents/txt/data.txt'
 
 
-fetch_csv_file(OUTPUT_PATH, "industry_names.csv", csv_url)
+def main():
 
-fetch_excel_file(OUTPUT_PATH, "sample_financial_data.xlsx", excel_url)
+    fetch_csv_file(OUTPUT_PATH, "industry_names.csv", csv_url)
 
-fetch_json_file(OUTPUT_PATH, "random_info.json", json_url)
+    fetch_excel_file(OUTPUT_PATH, "sample_financial_data.xlsx", excel_url)
 
-fetch_txt_file(OUTPUT_PATH, "identification_info", txt_url)
+    fetch_json_file(OUTPUT_PATH, "random_info.json", json_url)
+
+    fetch_txt_file(OUTPUT_PATH, "identification_info", txt_url)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+if __name__ == "__main__":
+    main()
